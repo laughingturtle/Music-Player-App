@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FriendsApp /> render() renders the component 1`] = `
+<div>
+  <h4>
+    Friends Activity
+  </h4>
+  <div
+    className=""
+  >
+    <SongList
+      handleSongClick={[Function]}
+      songs={
+        Array [
+          Object {
+            "artist": "mr whatsit",
+            "firstname": "willy",
+            "lastname": "walrus",
+            "song_id": 23,
+            "title": "bing bang bop",
+          },
+          Object {
+            "artist": "Blim blam",
+            "firstname": "Sooch",
+            "lastname": "Arechi",
+            "song_id": 5,
+            "title": "bloot bloot",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<SongList /> render() renders the component 1`] = `
+<div>
+  <h4>
+    Friends Activity
+  </h4>
+  <div
+    className=""
+  >
+    <SongList
+      handleSongClick={[Function]}
+      songs={
+        Array [
+          Object {
+            "artist": "mr whatsit",
+            "firstname": "willy",
+            "lastname": "walrus",
+            "song_id": 23,
+            "title": "bing bang bop",
+          },
+          Object {
+            "artist": "Blim blam",
+            "firstname": "Sooch",
+            "lastname": "Arechi",
+            "song_id": 5,
+            "title": "bloot bloot",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
